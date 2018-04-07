@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="@drawable/Rectangle">
+    <TextView
+        android:id="@+id/itemGridDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingBottom="10dp"
+        android:textColor="#fff" />
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBar"
+        android:numStars="3"
+        android:max="2"
+        android:progressTint="#fff"
+        style="?android:attr/ratingBarStyleSmall"
+        android:layout_gravity="center"
+        android:paddingBottom="10dp" />
+</LinearLayout>
